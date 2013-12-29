@@ -1,5 +1,5 @@
 body {
-    color: #777;
+    color: #444;
 }
 
 /*
@@ -38,8 +38,8 @@ The content `<div>` is where all your content goes.
      margin: 0;
      color: #333;
      text-align: center;
-     padding: 2.5em 2em 0;
-     border-bottom: 1px solid #eee;
+     padding: 1.2em 0em 0;
+     border-bottom: 1px solid #ddd;
  }
     .header h1 {
         margin: 0.2em 0;
@@ -48,7 +48,7 @@ The content `<div>` is where all your content goes.
     }
      .header h2 {
         font-weight: 300;
-        color: #ccc;
+        color: #B4B4B4;
         padding: 0;
         margin-top: 0;
     }
@@ -67,14 +67,14 @@ By using the combination of `position: fixed; top: 0; bottom:0;`, we can make
 the menu have 100% height and be fixed on the page as the rest of it scrolls.
 */
 #menu {
-    margin-left: -150px; /* this should be "#menu" width */
+    margin-left: -180px; /* this should be "#menu" width */
     width: 150px;
     position: fixed;
     top: 0;
-    left: 150px; /* this should be "#menu" width */
+    left: 180px; /* this should be "#menu" width */
     bottom: 0;
     z-index: 1; /* so the menu or its navicon stays above all content */
-    background: #191818;
+    background: #18213d;
     overflow-y: auto;
     -webkit-overflow-scroll: touch; /* for smooth scrolling on mobile */
 }
@@ -82,7 +82,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        color: #999;
+        color: #b4b4b4;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
@@ -101,14 +101,16 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
-        border-top: 1px solid #333;
+        border-top: 3px solid #555;
     }
         /*
         Change color of the anchor links on hover/focus.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: #333;
+            border: 4px solid #18213D;
+            color: #18213d;
+            text-decoration: none;
         }
 
     /*
@@ -116,7 +118,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #1f8dd6;
+        background: rgba(103, 102, 107, 0.78);
     }
         /*
         This styles a link within a selected menu item `<li>`.
@@ -128,6 +130,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     /*
     This styles the menu heading.
     */
+
     #menu .pure-menu-heading {
         font-size: 110%;
         color: #fff;
