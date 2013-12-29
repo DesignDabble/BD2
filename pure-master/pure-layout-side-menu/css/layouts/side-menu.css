@@ -74,7 +74,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     left: 180px; /* this should be "#menu" width */
     bottom: 0;
     z-index: 1; /* so the menu or its navicon stays above all content */
-    background: #18213d;
+    background: #05060a;
     overflow-y: auto;
     -webkit-overflow-scroll: touch; /* for smooth scrolling on mobile */
 }
@@ -82,7 +82,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        color: #b4b4b4;
+        color: #c4cde8;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
@@ -101,14 +101,18 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
-        border-top: 3px solid #555;
+        border-top: 2px solid #28213D;
+    }
+
+    #menu .pure-menu li {
+        padding-left: .6em;
     }
         /*
         Change color of the anchor links on hover/focus.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            border: 4px solid #18213D;
+            border: 2px solid #18213D;
             color: #18213d;
             text-decoration: none;
         }
@@ -118,13 +122,15 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: rgba(103, 102, 107, 0.78);
+        background: #18213d;
+        color: #c4cde8;
     }
         /*
         This styles a link within a selected menu item `<li>`.
         */
         #menu .pure-menu-selected a {
-            color: #fff;
+            color: #ccc;
+            padding-left: 0;
         }
 
     /*
@@ -132,9 +138,10 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
 
     #menu .pure-menu-heading {
-        font-size: 110%;
+        font-size: 120%;
         color: #fff;
         margin: 0;
+        text-transform: none;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
