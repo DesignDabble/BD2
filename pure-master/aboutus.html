@@ -5,57 +5,57 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
 
-    <title>About Us</title>
+    <title>About</title>
 
-    
-
-
-
-<!--ForUseWhenOffline-->
-<link rel="stylesheet" href="css/layouts/pure-min.css">
-
-<!--RemoveWhenOnline-->
-<!--<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
--->
-
-<link rel="stylesheet" href="css/layouts/aboutus.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+<link rel="stylesheet" href="css/layouts/side-menu.css">
 
 </head>
 <body>
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon --><span></span></a>
 
-<div class="pure-g-r" id="layout">
-    <div class="sidebar pure-u">
-        <header class="header">
-            <hgroup>
-                <h1 class="brand-title">Lead Trader</h1>
-                <h2 class="brand-tagline">About Us</h2>
-            </hgroup>
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading"><i>Lead Trader</i></a>
+            <ul>
 
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="pure-button" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="pure-button" href="http://yuilibrary.com">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<!--change li class to selected-->
+
+                <li><a href="home.html">Home</a></li>
+<li class="pure-menu-selected menu-item-divided"><a href="aboutus.html">About</a></li>
+                <li><a href="performance.html">Performance</a></li>
+                <li><a href="pricing.html">Products</a></li>
+                <li><a href="http://purecss.io/tables/">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="dittotrade.html">Ditto Trade</a></li>
+                <li><a href="http://purecss.io/customize/">Setup</a></li>
+                <li><a href="http://purecss.io/extend/">FAQ</a></li>
+                <li><a href="http://blog.purecss.io/">Subscription</a></li>
+                <li><a href="disclaimer.html">Share</a></li>
+                
+                <li class="menu-item-divided">
+                    <a href="http://yui.github.io/skinbuilder/?mode=pure">...</a>
+                </li>
+                <li><a href="http://yuilibrary.com/">...</a></li>
+            </ul>
+        </div>
     </div>
 
     <div class="pure-u-1">
         <div class="content">
             <!-- A wrapper for all the blog posts -->
             <div class="posts">
-                <h1 class="content-subhead">About Our Service</h1>
+                <h1 class="content-subhead-disclaimer">About the Service</h1>
 
                 <!-- A single blog post -->
                 <section class="post">
                     <header class="post-header">
                         <!--g class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">-->
 
-                        <h2 class="post-title">Introducing Lead Trader</h2>
+                        <h2 class="post-title">In the beginning</h2>
 
                         <p class="post-meta">
                             By <a href="#" class="post-author">Lead Trader </a> under <a class="post-category post-category-design" href="#">About</a> <a class="post-category post-category-pure" href="#">LeadTrader</a>
@@ -71,13 +71,12 @@
             </div>
 
             <div class="posts">
-                <h1 class="content-subhead">Biography</h1>
+                <h1 class="content-subhead-disclaimer">Biography</h1>
 
                 <section class="post">
                     <header class="post-header">
-                        <!--<img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">-->
-
-                        <h2 class="post-title">All About Lead Trader</h2>
+<!--<img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">-->
+                    <h2 class="post-title">All About Lead Trader</h2>
 
                         <p class="post-meta">
                             By <a class="post-author" href="#">Lead Trader <a class="post-category post-category-js" href="#">Biography</a>
@@ -86,14 +85,10 @@
 
                     <div class="post-description">
                         <p>
-                        <ul>Lead Trader has been trading equities and options for almost ten years. He is the founder of Lead Trader service</ul>
-                        <ul>He enjoys using social media as a channel to share daily market commentary, analysis and ideas.</ul>
-                        <ul>Lead Trader  co-authored “Trading, and how I do it”, which is a free e-book that can be purchased through Amazon.</ul>
-                        <ul>Lead Trader’s work is regularly featured in WSJ, Reuters, CNN Money, Traders Magazine, Real Clear Markets.</ul>
-                        <ul>He earned his MBA and MS Finance from University of Iowa in Iowa City, Iowa.</ul>
-                        </p>
+                        Lead Trader has been trading equities and options for almost ten years. He is the founder of Lead Trader service.  We enjoys using social media as a channel to share daily market commentary, analysis and ideas.  Lead Trader  co-authored “Trading, and how I do it”, which is a free e-book that can be purchased through Amazon.  Lead Trader’s work is regularly featured in WSJ, Reuters, CNN Money, Traders Magazine, Real Clear Markets.  He earned his MBA and MS Finance from University of Iowa in Iowa City, Iowa.</p>
                     </div>
                 </section>
+            </div>
 
                 <!--<section class="post">
                     <header class="post-header">
