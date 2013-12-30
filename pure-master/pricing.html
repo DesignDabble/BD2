@@ -3,25 +3,40 @@
 <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A layout example that shows off a responsive pricing table.">
-
-    <title>Products &amp Pricing</title>
-
+<meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>LeadTrader &ndash; Demo</title>
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
-<link rel="stylesheet" href="css/layouts/pricing.css">
+<link rel="stylesheet" href="css/layouts/index.css">
 </head>
-
 <body>
 
-<div class="pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-    <img src="http://farm4.staticflickr.com/3757/11439227693_775c4d9afd_s.jpg" href="home.html">
-    <a href="home.html" class="pure-menu-heading">Bull + Bear</a>
+<div id="layout"> 
+    <a href="#menu" id="menuLink" class="menu-link"><!-- Menu toggle -->
+        <span></span><!-- Hamburger icon -->
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading"><i>Lead Trader</i></a>
     <ul>
-        <li><a href="home.html">Home</a></li>
-        <li class="pure-menu-selected"><a href="#">Package Details</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</div>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="performance.html">Performance</a></li>
+                <li class="pure-menu-selected menu-item-divided"><a href="pricing.html">Products</a></li>
+                <li><a href="http://purecss.io/tables/">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="dittotrade.html">Ditto Trade</a></li>
+                <li><a href="http://purecss.io/customize/">Setup</a></li>
+                <li><a href="http://purecss.io/extend/">FAQ</a></li>
+                <li><a href="http://blog.purecss.io/">Subscription</a></li>
+                <li><a href="disclaimer.html">Share</a></li>
+                <li class="menu-item-divided"><a href="http://yui.github.io/skinbuilder/?mode=pure">...</a></li>
+                <li><a href="http://yuilibrary.com/">...</a></li>
+                </ul>
+        </div>
+    </div>
+
+<!--_______________original_______________-->
 
 <div class="banner">
     <h1 class="banner-head"><i>Our skin is in the game too.</i></h1>
@@ -102,16 +117,16 @@
     <div class="information pure-g-r">
         <div class="pure-u-1-2">
             <div class="l-box">
-                <h3 class="information-head">Connect with Us</h3>
+                <h2 class="information-head">Connect with Us</h2>
                 <p>
-                    At Lead Trader service, we are passionate about helping our subscribers have increased returns and a better understanding of the market.  We trade, this is what we do.  You’re too busy to sit around all day watching the markets.  So, we tell you what we see.  But we go out of our way to make sure you are learning something too.
+                    At Lead Trader service, we are passionate about helping our subscribers have increased returns and a better understanding of the market.  We trade, this is what we do.  You’re too busy to sit around all day watching the markets.  So, we tell you what we see while emphasizing and education process for you too.
                 </p>
             </div>
         </div>
 
         <div class="pure-u-1-2">
             <div class="l-box">
-                <h3 class="information-head">Refer for a Month Free</h3>
+                <h2 class="information-head">Refer for a Month Free</h2>
                 <p>
                     We don’t do much advertising.  Our best source is word of mouth.  We know that if we put out a high quality service, the rest will take care itself.  To give you that extra little oomph to talk, post, tweet (whatever) about us, we’re offering one month free to both you and whoever you get to sign up.
                 </p>
@@ -120,17 +135,16 @@
 
         <div class="pure-u-1-2">
             <div class="l-box">
-                <h3 class="information-head">We're Here to Help</h3>
+                <h2 class="information-head">We're Here to Help</h2>
                 <p>
-                    We do whatever we can to answer your questions before you have them.  And while we do offer private mentorship lessons, we’re available at your disposal.  Have a question?  Tweet us, e-mail us, Heck, we’ll even give you our personal cell phone numbers*.  We’ll help out in anyway we can! 
-                    <br>We won’t give you our personal cell phone numbers.
+                    We do whatever we can to answer your questions before you have them.  And while we do offer private mentorship lessons, we’re available at your disposal.  Have a question?  Tweet us, e-mail us, Heck, we’ll even give you our personal cell phone numbers.  We’ll help out in anyway we can! We won’t give you our personal cell phone numbers.
                 </p>
             </div>
         </div>
 
         <div class="pure-u-1-2">
             <div class="l-box">
-                <h3 class="information-head">Cancel Anytime</h3>
+                <h2 class="information-head">Cancel Anytime</h2>
                 <p>
                     There’s no major commitments with our service, which is why we only charge by the month.  Not happy with what you’re paying for?  Cut it off and we’ll refund the remaining amount for that year.  We understand that if we suck, you’re gone.  We’ll do our best not to suck. 
                 </p>
@@ -139,14 +153,15 @@
     </div> <!-- end information -->
 </div> <!-- end l-content -->
 
-<div class="footer">
-    <p class="l-box">
-        <a href="#">Subscribe now</a> for free updates to <a href='http://unsplash.com/'>The Fresh Game Weekly</a>.
-    </p>
-</div>
-
-
-
+<footer class="footer">
+                <div class="pure-menu pure-menu-horizontal pure-menu-open">
+                    <ul>
+                        <li><a href="http://purecss.io/">About</a></li>
+                        <li><a href="http://twitter.com/yuilibrary/">Twitter</a></li>
+                        <li><a href="http://github.com/yui/pure/">Github</a></li>
+                    </ul>
+                </div>
+            </footer>
 
 </body>
 </html>
