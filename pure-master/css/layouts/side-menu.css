@@ -26,12 +26,18 @@ This is the parent `<div>` that contains the menu and the content area.
 /*
 The content `<div>` is where all your content goes.
 */
+
+a {
+    text-decoration: none;
+    color: rgb(142, 142, 214);
+}
+
 .content {
     margin: 0 auto;
-    padding: 0 2em;
-    max-width: 800px;
+    padding: 2em 3em 0;
+    max-width: 75%;
     margin-bottom: 50px;
-    line-height: 1.6em;
+    line-height: 1.8em;
 }
 
 .header {
@@ -59,6 +65,74 @@ The content `<div>` is where all your content goes.
     color: #888;
 }
 
+/** ----- Disclaimer CSS Transfer ---- **/
+
+.content-subhead-disclaimer {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.post {
+    padding-bottom: 2em;
+}
+
+.post-title {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.4em;
+}
+
+.post-meta {
+    color: #999;
+    font-size: 90%;
+    margin: 0;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+    .post-category-design {
+        background: #5aba59;
+    }
+    .post-category-pure {
+        background: #4d85d1;
+    }
+    .post-category-yui {
+        background: #8156a7;
+    }
+    .post-category-js {
+        background: #df2d4f;
+    }
+
+    .footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+
+/** ----- Disclaimer CSS Transfer ---- **/
+
+
+
+
+
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
@@ -82,7 +156,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        color: #6F83ad;
+        color: #21408;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
@@ -129,8 +203,9 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
         This styles a link within a selected menu item `<li>`.
         */
         #menu .pure-menu-selected a {
-            color: #76DEF1;
+            color: #ccc;
             padding-left: .2em;
+            font-size: 110%;
         }
 
     /*
@@ -138,7 +213,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
 
     #menu .pure-menu-heading {
-        font-size: 110%;
+        font-size: 130%;
         color: #fff;
         margin: 0;
         text-transform: none;
