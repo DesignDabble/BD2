@@ -1,5 +1,5 @@
 body {
-    color: #444;
+    color: #777;
 }
 
 /*
@@ -19,7 +19,7 @@ Add transition to containers so they can push in and out.
 This is the parent `<div>` that contains the menu and the content area.
 */
 #layout {
-    padding-left: 180px; /* left col width "#menu" */
+    padding-left: 150px; /* left col width "#menu" */
     left: 0;
 }
 
@@ -34,17 +34,17 @@ a {
 
 .content {
     margin: 0 auto;
-    padding: 2em 3em 0;
-    max-width: 75%;
+    padding: 0 2em;
+    max-width: 800px;
     margin-bottom: 50px;
-    line-height: 1.8em;
+    line-height: 1.6em;
 }
 
 .header {
      margin: 0;
      color: #333;
      text-align: center;
-     padding: 1.2em 0em 0;
+     padding: 2.5em 2em 0;
      border-bottom: 1px solid #ddd;
  }
     .header h1 {
@@ -65,24 +65,24 @@ a {
     color: #888;
 }
 
-/** ----- Disclaimer CSS Transfer ---- **/
+/** ----- POST  ---- **/
 
 .content-subhead-disclaimer {
     text-transform: uppercase;
     color: #aaa;
     border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
-    font-size: 90%;
+    margin: 50px 0 20px 0;
+    font-size: 80%;
     font-weight: 300;
     letter-spacing: 0.1em;
 }
 
 .post {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .post-title {
-    font-size: 1.5em;
+    font-size: 100%;
     color: #222;
     margin-bottom: 0.4em;
 }
@@ -92,7 +92,9 @@ a {
     font-size: 80%;
     margin: 0;
 }
-
+.post-header {
+    margin-bottom:;
+}
 .post-category {
     margin: 0 0.1em;
     padding: 0.3em 1em;
@@ -113,26 +115,22 @@ a {
         background: #df2d4f;
     }
 
-    .footer {
+.footer {
     text-align: center;
     padding: 1em 0;
 }
-.footer a {
-    color: #ccc;
-    font-size: 80%;
+    .footer a {
+        color: #ccc;
+        font-size: 80%;
 }
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
     background: none;
 }
 
-/****************** Pricing Migration ******************/
+/* ---------------------------------------------------------- Pricing ---------------- */
 /*
- * -- BANNER --
- * The top banner with the headings. By using a combination
- * of `display: table;` and `display: table-cell;`, we can
- * vertically center the text.
- */
+ * -- BANNER --* The top banner with the headings. By using a combination* of `display: table;` and `display: table-cell;`, we can* vertically center the text.*/
 
  .l-content {
     margin: 0;
@@ -167,10 +165,7 @@ a {
         text-shadow: 0 1px 1px #000;
     }
 
-/*
- * -- PRICING TABLE WRAPPER --
- * This element wraps up all the pricing table elements
- */
+/** -- PRICING TABLE WRAPPER --* This element wraps up all the pricing table elements*/
  .pricing-tables,
  .information {
     max-width: 980px;
@@ -183,20 +178,14 @@ a {
 
 /*.pricing-tables-price {letter-spacing: 20px;}*/
 
-/*
- * -- PRICING TABLE  --
- * Every pricing table has the .pricing-table class
- */
+/** -- PRICING TABLE  --* Every pricing table has the .pricing-table class*/
 .pricing-table {
     border: 1px solid #ddd;
     margin: 0 0.5em;
     padding: 0 0 3em;
 }
 
-/*
- * -- PRICING TABLE HEADER COLORS --
- * Choose a different color based on the type of pricing table.
- */
+/** -- PRICING TABLE HEADER COLORS --* Choose a different color based on the type of pricing table.*/
 .pricing-table-free .pricing-table-header {
     background: #6C8A87;
 }
@@ -205,10 +194,7 @@ a {
     background: #527492;
 }
 
-/*
- * -- PRICING TABLE HEADER --
- * By default, a header is black/white, and has some styles for its <h2> name.
- */
+/** -- PRICING TABLE HEADER --* By default, a header is black/white, and has some styles for its <h2> name.*/
 .pricing-table-header {
     background: #CFA854;
     color: #fff;
@@ -219,12 +205,7 @@ a {
         font-size: 1em;
         font-weight: normal;
     }
-
-
-/*
- * -- PRICING TABLE PRICE --
- * Styles for the price and the corresponding <span>per month</span>
- */
+/** -- PRICING TABLE PRICE --* Styles for the price and the corresponding <span>per month</span>*/
 .pricing-table-price {
     font-size: 4.4em;
     margin: 0.2em 0 0;
@@ -239,37 +220,20 @@ a {
         color: rgba(255, 255, 255, 0.5);
         *color: #fff;
     }
-
-
-
-/*
- * -- PRICING TABLE LIST --
- * Each pricing table has a <ul> which is denoted by the .pricing-table-list class
- */
+/** -- PRICING TABLE LIST --* Each pricing table has a <ul> which is denoted by the .pricing-table-list class*/
 .pricing-table-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
-
-
-/*
- * -- PRICING TABLE LIST ELEMENTS --
- * Styles for the individual list elements within each pricing table
- */
+/** -- PRICING TABLE LIST ELEMENTS --* Styles for the individual list elements within each pricing table*/
 .pricing-table-list li {
     padding: 0.8em 0;
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
 }
-
-
-/*
- * -- PRICING TABLE BUTTON --
- * Styles for the "Choose" button at the bottom of a pricing table.
- * This inherits from Pure Button.
- */
+/** -- PRICING TABLE BUTTON -- * Styles for the "Choose" button at the bottom of a pricing table. * This inherits from Pure Button.*/
 .button-choose {
     border: 1px solid #ccc;
     background: #fff;
@@ -285,25 +249,20 @@ a {
     line-height: 1.6em;
 }
 
-/** ----- Disclaimer CSS Transfer ---- **/
+/** ----- End Pricing -------------------------------------------------------- **/
 
 
 
-
-
-/*
-The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
+/*The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
-
 By using the combination of `position: fixed; top: 0; bottom:0;`, we can make
-the menu have 100% height and be fixed on the page as the rest of it scrolls.
-*/
+the menu have 100% height and be fixed on the page as the rest of it scrolls.*/
 #menu {
-    margin-left: -180px; /* this should be "#menu" width */
-    width: 180px;
+    margin-left: -150px; /* this should be "#menu" width */
+    width: 150px;
     position: fixed;
     top: 0;
-    left: 180px; /* this should be "#menu" width */
+    left: 150px; /* this should be "#menu" width */
     bottom: 0;
     z-index: 1; /* so the menu or its navicon stays above all content */
     background: #05060a;
@@ -362,7 +321,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
         */
         #menu .pure-menu-selected a {
             color: #ccc;
-            font-size: 105%;
+            font-size: 100%;
         }
 
     /*
@@ -429,11 +388,157 @@ small screens.
         }
 
 
-/* -- Responsive Styles (Media Queries) ------------------------------------- */
+/*************  MODAL CSS *************/
 
-/*
-Hides the menu at `767px`, but modify this based on your app's needs.
-*/
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000000;
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  z-index: 1050;
+  width: 560px;
+  margin-left: -280px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  outline: none;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+
+.modal.fade {
+  top: -25%;
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+          transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+
+.modal.fade.in {
+  top: 10%;
+}
+
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.modal-header .close {
+  margin-top: 2px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  line-height: 30px;
+}
+
+.modal-body {
+  position: relative;
+  max-height: 400px;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.modal-form {
+  margin-bottom: 0;
+}
+
+.modal-footer {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.modal-footer:after {
+  clear: both;
+}
+
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+     -moz-transition: opacity 0.15s linear;
+       -o-transition: opacity 0.15s linear;
+          transition: opacity 0.15s linear;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+/*************************************************************************************** END MODAL *******/
+
+
+
+
+
+
+/* -- Responsive Styles (Media Queries) ------------------------------------- */
+/* Hides the menu at `767px`, but modify this based on your app's needs.*/
+
 @media (max-width: 767px) {
 
     .header {

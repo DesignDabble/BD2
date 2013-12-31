@@ -1,205 +1,195 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+		<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+<meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
 
-    <title>Setup &amp FAQ</title>
+		<title>Setup &amp FAQ</title>
+
+
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
-<link rel="stylesheet" href="css/layouts/dittotrade.css">
 
+<link rel="stylesheet" href="css/layouts/index.css">
+<!-- imported from purecss/extend -->
+<link rel="stylesheet" href="/combo/1.8.2?/css/main.css&amp;/css/bootstrap/modal.css&amp;/css/rainbow/baby-blue.css">
 
 </head>
 <body>
+<div id="layout">
+		<!-- Menu toggle -->
+		<a href="#menu" id="menuLink" class="menu-link">
+				<!-- Hamburger icon -->
+				<span></span>
+		</a>
 
-<div class="pure-g-r" id="layout">
-    <div class="sidebar pure-u">
-        <header class="header">
-            <hgroup>
-                <h1 class="brand-title">LeadTrader + Ditto Trade</h1>
-                <h2 class="brand-tagline">SETUP &amp FAQ</h2>
-            </hgroup>
+		<div id="menu">
+				<div class="pure-menu pure-menu-open">
+						<a class="pure-menu-heading"><i>Lead Trader</i></a>
+		<ul>
+								<li><a href="home.html">Home</a></li>
+								<li><a href="aboutus.html">About</a></li>
+								<li><a href="performance.html">Performance</a></li>
+								<li><a href="pricing.html">Products</a></li>
+								<li><a href="http://purecss.io/tables/">Contact</a></li>
+								<li><a href="blog.html">Blog</a></li>
+			<li class="pure-menu-selected menu-item-divided"><a href="dittotrade.html">Ditto Trade</a></li>
+								<li><a href="http://purecss.io/customize/">Setup</a></li>
+								<li><a href="http://purecss.io/extend/">FAQ</a></li>
+								<li><a href="http://blog.purecss.io/">Subscription</a></li>
+								<li><a href="disclaimer.html">Share</a></li>
 
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="pure-button" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="pure-button" href="http://yuilibrary.com">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+								<li class="menu-item-divided">
+										<a href="http://yui.github.io/skinbuilder/?mode=pure">...</a>
+								</li>
+								<li><a href="http://yuilibrary.com/">...</a></li>
+								</ul>
+		</div>
+</div>
 
-    <div class="pure-u-1">
-        <div class="content">
-            <!-- A wrapper for all the blog posts -->
-            <div class="posts">
-                <h1 class="content-subhead">Follow LeadTrader on Ditto Trade</h1>
+<!-- ORIGINAL -->
 
-                <!-- A single blog post -->
-                <section class="post">
-                    <header class="post-header">
-                        <!--g class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">-->
+<div class="pure-u-1">
+	<div class="content">
+		<!-- A wrapper for all the blog posts -->
+	<div class="post">
+		<h1 class="content-subhead-disclaimer">Following LeadTrader on Ditto Trade</h1>
+			<!-- A single blog post -->
+			<section class="post">
+				<header class="post-header">
+				<!--g class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">-->
 
-                        <h3 class="post-title">What does it mean to "Ditto LeadTrader?"</h3>
+					<h5 class="post-title">What does it mean to "Ditto LeadTrader?"</h5>
+					<p class="post-meta"><a href="#" class="post-author">Tags: </a><a class="post-category post-category-design" href="#">Follow</a> <a class="post-category post-category-pure" href="#">LeadTrader</a></p>
+					<div class="post-description">
+						<p>First and foremost, you gain the ability to<a href=""> take part in our actual trades.</a> Instead of simply mirroring our trades, Ditto gives you complete control over how you do this.</p>
+							<h4>Here are some of the ways you can modify your settings</h4>
+							<ol>
+								<li>You can switch to <strong>Ditto Off</strong>.  It is completely your decision to Ditto our trade or not.</li>
+								<li>Detach Positions you Already Own</li>
+								<li>Modify your settings for position sizing</li>
+								<li><strong>Complete Transparency</strong>.  You can view position-status 24/7</li></ol>
+					</div>
+				</header>
 
-                        <p class="post-meta">
-                            <a href="#" class="post-author">Tags</a><a class="post-category post-category-design" href="#">Follow</a> <a class="post-category post-category-pure" href="#">LeadTrader</a>
-                        </p>
-                    </header>
+<!-- ***************** Modal ****************** -->						
+	<div class="posts">
+		<h1 class="content-subhead-disclaimer">Video Instructions</h1>
+		<p>Some people prefer to watch video instructions.  If you're one of those people, just click the button below:</p>
+		<p><a href="#myModal" role="button" class="pure-button pure-button-primary" data-toggle="modal">Instructional Video</a>
+		</p>	
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<h1 id="myModalLabel">How to: Video</h1>
+			</div>
+			<div class="modal-body">
+				<form class="pure-form pure-form-stacked">
+					<legend>A Stacked Form</legend>
+					<label for="email">Email</label>
+					<input id="email" type="text" placeholder="Email">
+					<label for="password">Password</label>
+					<input id="password" type="password" placeholder="Password">
+					<label for="state">State</label>
+					<select id="state">
+							<option>AL</option>
+							<option>CA</option>
+							<option>IL</option>
+					</select>
+					<label class="pure-checkbox">
+							<input type="checkbox"> Remember me
+					</label>
+			</form>
+	</div>
+				<div class="modal-footer">
+					<button class="pure-button" data-dismiss="modal" aria-hidden="true">Close</button>
+					<button class="pure-button pure-button-primary">Submit</button>
+			</div>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+	</div>
 
-                    <div class="post-description">
-                        <h3>Video:</h3>
-                        <h3>Take Part in our Actual Trades</h3>
-                            <h3>Complete Control</h3>
-                                <li>Turn Ditto "OFF" ~~> Your choice to "Ditto the Trade"/Or Not</li>
-                                <li>Detach Positions you Already Own</li>
-                                <li>Modify your settings for position sizing</li>
-                        <h3>Complete Transparency</h3>
-                            <li>View position-status 24/7</li>
-                    </div>
-                </section>
-            </div>
 
-            <div class="posts">
-                <h1 class="content-subhead">Step-By-Step</h1>
+<!--  ____________________________________________END MODAL INFO__________________________     -->
 
-                <section class="post">
-                    <header class="post-header">
-                        <!--<img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">-->
-                        <p class="post-meta">
-                            <a class="post-author" href="#">Tags: <a class="post-category post-category-js" href="#">Setup</a>
-                        </p>
-                        <h3 class="post-title">Getting Started</h3>
+	<div class="posts">
+	<h1 class="content-subhead-disclaimer">Step-By-Step</h1>
 
-                    <div class="post-description">
-                        <p>
-                        <h3>(1) Your subscription to LeadTrader Service</h3>
-                            <li>Click "Sign-Up"</li>
-                            <li>Complete Payment Information</li>
-                            <li>Wait for Subscription Confirmation</li>
-                        <h3>(2) Connect with LeadTrader on Ditto Trade</h3>
-                        <ul>(3)During the initial setup of your Ditto Trade Account please note:</ul>
-                            <li>Set Investment Objective to Aggressive Growth</li>
-                            <li>Have margin approval</li>
-                            <li>Be approved to trade options</li>
-                        <ul>(4) Also, when funding your Dittto Trade account:</ul>
-                            <li>Minimum of $25,000</li>
-                        <h3>Once you receive confirmation of your connection, you will receive instructions regarding position sizing</h3>
-                        <h3>Start "Ditto"-ing</h3>
-                            <ul>Download the Ditto Trade Mobile App to be even more to LeadTrader</ul>
-                        </p>
-                    </header>
+	<section class="post">
+			<header class="post-header">
+					<!--<img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">-->
+					<h3 class="post-title">Getting Started</h3>
+					<p class="post-meta">
+							<a class="post-author" href="#">Tags: <a class="post-category post-category-js" href="#">Setup</a>
+					</p>
+					
 
-                    
-                    <div class="posts">
-                <h1 class="content-subhead">Frequently Asked Questions</h1>
+			<div class="post-description">
+					<p>
+					<h3>(1) Your subscription to LeadTrader Service</h3>
+							<li>Click "Sign-Up"</li>
+							<li>Complete Payment Information</li>
+							<li>Wait for Subscription Confirmation</li>
+					<h3>(2) Connect with LeadTrader on Ditto Trade</h3>
+					<ul>(3)During the initial setup of your Ditto Trade Account please note:</ul>
+							<li>Set Investment Objective to Aggressive Growth</li>
+							<li>Have margin approval</li>
+							<li>Be approved to trade options</li>
+					<ul>(4) Also, when funding your Dittto Trade account:</ul>
+							<li>Minimum of $25,000</li>
+					<h3>Once you receive confirmation of your connection, you will receive instructions regarding position sizing</h3>
+					<h3>Start "Ditto"-ing</h3>
+							<ul>Download the Ditto Trade Mobile App to be even more to LeadTrader</ul>
+					</p>
+			</header>
 
-                <section class="post">
-                    <header class="post-header">
-                        <!--<img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">-->
-                        <p class="post-meta">
-                            <a class="post-author" href="#">Tags: <a class="post-category post-category-js" href="#">FAQ</a>
-                        </p>
-                        <div class="post-description">
-                        <p>
-                        <h3>Do I need a Ditto Trade account to follow LeadTrader?</h3>
-                            <ul>Yes, you are only able to follow me with Ditto Trade’s technology on Ditto Trade</ul>
-                        <h3>What does Ditto Trade's Fees?</h3>
-                            <ul>$6.95 per trade and .75 per contract</ul>
-                        <h3>What is the relationship between Lead Trader and Ditto Trade?</h3>
-                            <ul>We are licensing their technology.  There is no financial relationship between LeadTrader and Ditto Trade.  Ditto Trade does not receive a percentage of subscription fees and we do not receive anything for transactions or bringing in clients</ul>
-                        <h3>Who should I contact if I have questions regarding Ditto Trade?</h3>
-                            <ul>Ditto Trade has FANTASTIC customer service.  E-mail them info@dittotrade.com or call at 877-99-Ditto.  They will answer any questions you may have.</ul>
-                        </p>
-                    </header>
-                    </div>
-            
-                <!--<section class="post">
-                    <header class="post-header">
-                        <img class="post-avatar" alt="Reid Burke&#x27;s avatar" height="48" width="48" src="img/common/reid-avatar.png">
+			
+			<div class="posts">
+	<h1 class="content-subhead-disclaimer">Frequently Asked Questions</h1>
 
-                        <h2 class="post-title">Photos from CSSConf and JSConf</h2>
+	<section class="post">
+			<header class="post-header">
+					<!--<img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">-->
+					<p class="post-meta">
+							<a class="post-author" href="#">Tags: <a class="post-category post-category-js" href="#">FAQ</a>
+					</p>
+					<div class="post-description">
+					<p>
+					<h3>Do I need a Ditto Trade account to follow LeadTrader?</h3>
+							<ul>Yes, you are only able to follow me with Ditto Trade’s technology on Ditto Trade</ul>
+					<h3>What does Ditto Trade's Fees?</h3>
+							<ul>$6.95 per trade and .75 per contract</ul>
+					<h3>What is the relationship between Lead Trader and Ditto Trade?</h3>
+							<ul>We are licensing their technology.  There is no financial relationship between LeadTrader and Ditto Trade.  Ditto Trade does not receive a percentage of subscription fees and we do not receive anything for transactions or bringing in clients</ul>
+					<h3>Who should I contact if I have questions regarding Ditto Trade?</h3>
+							<ul>Ditto Trade has FANTASTIC customer service.  E-mail them info@dittotrade.com or call at 877-99-Ditto.  They will answer any questions you may have.</ul>
+					</p>
+			</header>
+			</div>
 
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Reid Burke</a> under <a class="post-category" href="#">Uncategorized</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <div class="post-images pure-g-r">
-                            <div class="pure-u-1-2">
-                                <a href="http://www.flickr.com/photos/uberlife/8915936174/">
-                                    <img alt="Photo of someone working poolside at a resort"
-                                         src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
-                                </a>
-
-                                <div class="post-image-meta">
-                                    <h3>CSSConf Photos</h3>
-                                </div>
-                            </div>
-
-                            <div class="pure-u-1-2">
-                                <a href="http://www.flickr.com/photos/uberlife/8907351301/">
-                                    <img alt="Photo of the sunset on the beach"
-                                         src="http://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg">
-                                </a>
-
-                                <div class="post-image-meta">
-                                    <h3>JSConf Photos</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="post">
-                    <header class="post-header">
-                        <img class="post-avatar" alt="Andrew Wooldridge&#x27;s avatar" height="48" width="48" src="img/common/andrew-avatar.png">
-
-                        <h2 class="post-title">YUI 3.10.2 Released</h2>
-
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Andrew Wooldridge</a> under <a class="post-category post-category-yui" href="#">YUI</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                            We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.
-                        </p>
-                    </div>
-                </section>
-            </div>-->
-
-            <footer class="footer">
-                <div class="pure-menu pure-menu-horizontal pure-menu-open">
-                    <ul>
-                        <li><a href="http://purecss.io/">About</a></li>
-                        <li><a href="http://twitter.com/yuilibrary/">Twitter</a></li>
-                        <li><a href="http://github.com/yui/pure/">Github</a></li>
-                    </ul>
-                </div>
-            </footer>
-        </div>
-    </div>
+						<footer class="footer">
+								<div class="pure-menu pure-menu-horizontal pure-menu-open">
+										<ul>
+												<li><a href="http://purecss.io/">About</a></li>
+												<li><a href="http://twitter.com/yuilibrary/">Twitter</a></li>
+												<li><a href="http://github.com/yui/pure/">Github</a></li>
+										</ul>
+								</div>
+						</footer>
+				</div>
+		</div>
 </div>
 
 <script src="http://yui.yahooapis.com/3.12.0/build/yui/yui.js"></script>
 <script>
 YUI().use('node-base', 'node-event-delegate', function (Y) {
-    // This just makes sure that the href="#" attached to the <a> elements
-    // don't scroll you back up the page.
-    Y.one('body').delegate('click', function (e) {
-        e.preventDefault();
-    }, 'a[href="#"]');
+		// This just makes sure that the href="#" attached to the <a> elements
+		// don't scroll you back up the page.
+		Y.one('body').delegate('click', function (e) {
+				e.preventDefault();
+		}, 'a[href="#"]');
 });
 </script>
-
+<script src="/combo/1.8.2?/js/ui.js&amp;/vendor/rainbow/rainbow-min.js"></script>
 
 
 
