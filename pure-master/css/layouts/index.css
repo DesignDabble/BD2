@@ -1,3 +1,7 @@
+@font-face {
+    @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+}
+
 body {
     color: #777;
 }
@@ -38,6 +42,7 @@ a {
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
+    font-size: 100%;
 }
 
 .header {
@@ -49,7 +54,7 @@ a {
  }
     .header h1 {
         margin: 0.2em 0;
-        font-size: 3em;
+        font-size: 2.2em;
         font-weight: 300;
     }
      .header h2 {
@@ -71,8 +76,8 @@ a {
     text-transform: uppercase;
     color: #aaa;
     border-bottom: 1px solid #eee;
-    margin: 50px 0 20px 0;
-    padding-bottom: 7px;
+    margin: 50px 0 25px 0;
+    padding-bottom: 5px;
     font-size: 100%;
     font-weight: 300;
     letter-spacing: 0.1em;
@@ -83,9 +88,10 @@ a {
 }
 
 .post-title {
-    font-size: 100%;
+    font-size: 150%;
+    font-weight: 300;
     color: #666;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.5em;
 }
 
 .post-meta {
@@ -93,8 +99,9 @@ a {
     font-size: 80%;
     margin: 0;
 }
+
 .post-header {
-    margin-bottom:;
+    margin-bottom: 0;
 }
 .post-category {
     margin: 0 0.1em;
@@ -115,6 +122,24 @@ a {
     .post-category-js {
         background: #df2d4f;
     }
+/* _______________________Blog Page____________________ */
+
+.post-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+/* _______________________Blog Page____________________ */
 
 .footer {
     text-align: center;
@@ -142,14 +167,14 @@ a {
 }
 
 .l-box p{
-    line-height: 1.8em;
+    line-height: 1.6em;
 }
 .banner {
     background: transparent url('http://farm3.staticflickr.com/2868/11423254635_fea3c0839f_c.jpg') 0 0 no-repeat fixed;
     text-align: center;
     padding-bottom: 0em;
     background-size: cover;
-    height: 400px;
+    height: 250px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -162,14 +187,14 @@ a {
         padding-top: .65em;
         font-size: 3.8em;
         color: #FFB700;
-        font-weight: 900;
+        font-weight: 500;
         text-shadow: 0 1px 1px #000;
     }
 
 /** -- PRICING TABLE WRAPPER --* This element wraps up all the pricing table elements*/
  .pricing-tables,
  .information {
-    max-width: 980px;
+    max-width: 787px;
     margin: 0 auto;
  }
 .pricing-tables {
@@ -208,7 +233,7 @@ a {
     }
 /** -- PRICING TABLE PRICE --* Styles for the price and the corresponding <span>per month</span>*/
 .pricing-table-price {
-    font-size: 4.4em;
+    font-size: 4em;
     margin: 0.2em 0 0;
     font-weight: 100;
 }
@@ -277,6 +302,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.*/
         color: #21408;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
+        font-size: 90%;
     }
 
     /*
@@ -297,7 +323,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.*/
     }
 
     #menu .pure-menu li {
-        padding-left: 1.8em;
+        padding-left: 0.5em;
     }
         /*
         Change color of the anchor links on hover/focus.
@@ -330,7 +356,8 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.*/
     */
 
     #menu .pure-menu-heading {
-        font-size: 130%;
+        font-size: 100%;
+        font-weight: 300;
         color: #fff;
         margin: 0;
         text-transform: none;
@@ -533,8 +560,60 @@ small screens.
 /*************************************************************************************** END MODAL *******/
 
 
+/********************* Table *************************/
+/* foundational CSS */
+.pure-skin-mine .pure-table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #d7dce5;
+}
 
+.pure-skin-mine .pure-table caption {
+    color: #adadad;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
 
+.pure-skin-mine .pure-table td,
+.pure-skin-mine .pure-table th {
+    border-left: 1px solid #D7DCE5;/* inner column border */
+    border-width: 0 0 0 1px;
+    font-size: 90%;
+    margin: 2em 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.3em 2em; /* cell padding */
+}
+
+.pure-skin-mine .pure-table td:first-child,
+.pure-skin-mine .pure-table th:first-child {
+    border-left-width: 0;
+}
+
+.pure-skin-mine .pure-table thead {
+    background-color: #ADC0CC;
+    color: #05060a;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*striping: even - #fff (white) odd  - #f2f2f2 (light gray)*/
+.pure-skin-mine .pure-table td {
+    background-color: #EBEEF0;
+    color: #323c4e;
+}
+.pure-skin-mine .pure-table-odd td {
+    background-color: #d7dce5;
+    color: #1e242f;
+}
+
+/* nth-child selector for modern browsers */
+.pure-skin-mine .pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #d7dce5;
+    color: #1e242f;
+}
 
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */

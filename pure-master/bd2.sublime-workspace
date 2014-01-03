@@ -3,37 +3,39 @@
 	{
 		"selected_items":
 		[
+			[
+				"dl",
+				"dl	Tag"
+			],
+			[
+				"p",
+				"p	Tag"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "home.html",
+			"file": "performance.html",
 			"settings":
 			{
-				"buffer_size": 6670,
+				"buffer_size": 8356,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!doctype html>\n<html lang=\"en\">\n<head>\n		<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"A layout example with a side menu that hides on mobile, just like the Pure website.\">\n\n		<title>Setup &amp FAQ</title>\n\n\n<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.3.0/pure-min.css\">\n<link rel=\"stylesheet\" href=\"css/layouts/index.css\">\n<!-- imported from purecss/extend -->\n<link rel=\"stylesheet\" href=\"/combo/1.8.2?/css/main.css&amp;/css/bootstrap/modal.css&amp;/css/rainbow/baby-blue.css\">\n\n</head>\n<body>\n<div id=\"layout\">\n		<!-- Menu toggle -->\n		<a href=\"#menu\" id=\"menuLink\" class=\"menu-link\">\n				<!-- Hamburger icon -->\n				<span></span>\n		</a>\n\n		<div id=\"menu\">\n				<div class=\"pure-menu pure-menu-open\">\n						<a class=\"pure-menu-heading\"><i>Lead Trader</i></a>\n		<ul>\n								<li><a href=\"home.html\">Home</a></li>\n								<li><a href=\"aboutus.html\">About</a></li>\n								<li><a href=\"performance.html\">Performance</a></li>\n								<li><a href=\"pricing.html\">Products</a></li>\n								<li><a href=\"http://purecss.io/tables/\">Contact</a></li>\n								<li><a href=\"blog.html\">Blog</a></li>\n				<li class=\"pure-menu-selected menu-item-divided\"><a href=\"dittotrade.html\">Ditto Trade</a></li>\n								<li><a href=\"http://purecss.io/customize/\">Setup</a></li>\n								<li><a href=\"http://purecss.io/extend/\">FAQ</a></li>\n								<li><a href=\"http://blog.purecss.io/\">Subscription</a></li>\n								<li><a href=\"disclaimer.html\">Share</a></li>\n\n								<li class=\"menu-item-divided\">\n										<a href=\"http://yui.github.io/skinbuilder/?mode=pure\">...</a>\n								</li>\n								<li><a href=\"http://yuilibrary.com/\">...</a></li>\n								</ul>\n				</div>\n		</div>\n\n<!-- ORIGINAL -->\n\n		<div class=\"pure-u-1\">\n				<div class=\"content\">\n						<!-- A wrapper for all the blog posts -->\n						<div class=\"posts\">\n								<h3 class=\"content-subhead-disclaimer\">Follow LeadTrader on Ditto Trade</h3>\n\n								<!-- A single blog post -->\n								<section class=\"post\">\n										<header class=\"post-header\">\n												<!--g class=\"post-avatar\" alt=\"Tilo Mitra&#x27;s avatar\" height=\"48\" width=\"48\" src=\"img/common/tilo-avatar.png\">-->\n\n												<h3 class=\"post-title\">What does it mean to \"Ditto LeadTrader?\"</h3>\n\n												<p class=\"post-meta\">\n														<a href=\"#\" class=\"post-author\">Tags</a><a class=\"post-category post-category-design\" href=\"#\">Follow</a> <a class=\"post-category post-category-pure\" href=\"#\">LeadTrader</a>\n												</p>\n										</header>\n												<div class=\"post-description\">\n\n\n												<!-- ***************** Modal ****************** -->\n						\n						<div class=\"modal-body\">\n						<p>\n						<a href=\"#myModal\" role=\"button\" class=\"pure-button pure-button-primary\" data-toggle=\"modal\">Launch Instructional Video</a></p>    \n						\n						<div id=\"myModal\" class=\"modal hide fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\">\n		<div class=\"modal-header\">\n				<h1 id=\"myModalLabel\">How to: Follow on Lead Trader</h1></div>\n		<div class=\"modal-body\">\n				<p>\n						This modal is launched by including <em>just</em> the <code>modal.css</code> and <code>modal.js</code> file from Bootstrap, and including Pure to drive all low-level styles. The result is a fully-functional Modal using just a fraction of the CSS.\n				</p>\n\n				<form class=\"pure-form pure-form-stacked\">\n						<legend>A Stacked Form</legend>\n\n						<label for=\"email\">Email</label>\n						<input id=\"email\" type=\"text\" placeholder=\"Email\">\n\n						<label for=\"password\">Password</label>\n						<input id=\"password\" type=\"password\" placeholder=\"Password\">\n\n						<label for=\"state\">State</label>\n						<select id=\"state\">\n								<option>AL</option>\n								<option>CA</option>\n								<option>IL</option>\n						</select>\n\n						<label class=\"pure-checkbox\">\n								<input type=\"checkbox\"> Remember me\n						</label>\n				</form>\n		</div>\n\n		<div class=\"modal-footer\">\n				<button class=\"pure-button\" data-dismiss=\"modal\" aria-hidden=\"true\">Close</button>\n				<button class=\"pure-button pure-button-primary\">Submit</button>\n		</div>\n				<script src=\"http://code.jquery.com/jquery-1.9.1.js\"></script>\n				<script src=\"http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js\"></script>\n		</div><!--END MODAL INFO-->\n\n												<p>Take Part in our Actual Trades</p>\n														<h3>Complete Control</p>\n																<li>Turn Ditto \"OFF\" ~~> Your choice to \"Ditto the Trade\"/Or Not</li>\n																<li>Detach Positions you Already Own</li>\n																<li>Modify your settings for position sizing</li>\n												<p>Complete Transparency</p>\n														<li>View position-status 24/7</li>\n										</div>\n								</section>\n						</div>\n\n\n\n\n\n\n\n\n						<div class=\"posts\">\n								<h1 class=\"content-subhead-disclaimer\">Step-By-Step</h1>\n\n								<section class=\"post\">\n										<header class=\"post-header\">\n												<!--<img class=\"post-avatar\" alt=\"Eric Ferraiuolo&#x27;s avatar\" height=\"48\" width=\"48\" src=\"img/common/ericf-avatar.png\">-->\n												<p class=\"post-meta\">\n														<a class=\"post-author\" href=\"#\">Tags: <a class=\"post-category post-category-js\" href=\"#\">Setup</a>\n												</p>\n												<h3 class=\"post-title\">Getting Started</h3>\n\n										<div class=\"post-description\">\n												<p>\n												<h3>(1) Your subscription to LeadTrader Service</h3>\n														<li>Click \"Sign-Up\"</li>\n														<li>Complete Payment Information</li>\n														<li>Wait for Subscription Confirmation</li>\n												<h3>(2) Connect with LeadTrader on Ditto Trade</h3>\n												<ul>(3)During the initial setup of your Ditto Trade Account please note:</ul>\n														<li>Set Investment Objective to Aggressive Growth</li>\n														<li>Have margin approval</li>\n														<li>Be approved to trade options</li>\n												<ul>(4) Also, when funding your Dittto Trade account:</ul>\n														<li>Minimum of $25,000</li>\n												<h3>Once you receive confirmation of your connection, you will receive instructions regarding position sizing</h3>\n												<h3>Start \"Ditto\"-ing</h3>\n														<ul>Download the Ditto Trade Mobile App to be even more to LeadTrader</ul>\n												</p>\n										</header>\n\n										\n										<div class=\"posts\">\n								<h1 class=\"content-subhead-disclaimer\">Frequently Asked Questions</h1>\n\n								<section class=\"post\">\n										<header class=\"post-header\">\n												<!--<img class=\"post-avatar\" alt=\"Eric Ferraiuolo&#x27;s avatar\" height=\"48\" width=\"48\" src=\"img/common/ericf-avatar.png\">-->\n												<p class=\"post-meta\">\n														<a class=\"post-author\" href=\"#\">Tags: <a class=\"post-category post-category-js\" href=\"#\">FAQ</a>\n												</p>\n												<div class=\"post-description\">\n												<p>\n												<h3>Do I need a Ditto Trade account to follow LeadTrader?</h3>\n														<ul>Yes, you are only able to follow me with Ditto Trade’s technology on Ditto Trade</ul>\n												<h3>What does Ditto Trade's Fees?</h3>\n														<ul>$6.95 per trade and .75 per contract</ul>\n												<h3>What is the relationship between Lead Trader and Ditto Trade?</h3>\n														<ul>We are licensing their technology.  There is no financial relationship between LeadTrader and Ditto Trade.  Ditto Trade does not receive a percentage of subscription fees and we do not receive anything for transactions or bringing in clients</ul>\n												<h3>Who should I contact if I have questions regarding Ditto Trade?</h3>\n														<ul>Ditto Trade has FANTASTIC customer service.  E-mail them info@dittotrade.com or call at 877-99-Ditto.  They will answer any questions you may have.</ul>\n												</p>\n										</header>\n										</div>\n						\n								<!--<section class=\"post\">\n										<header class=\"post-header\">\n												<img class=\"post-avatar\" alt=\"Reid Burke&#x27;s avatar\" height=\"48\" width=\"48\" src=\"img/common/reid-avatar.png\">\n\n												<h2 class=\"post-title\">Photos from CSSConf and JSConf</h2>\n\n												<p class=\"post-meta\">\n														By <a class=\"post-author\" href=\"#\">Reid Burke</a> under <a class=\"post-category\" href=\"#\">Uncategorized</a>\n												</p>\n										</header>\n\n										<div class=\"post-description\">\n												<div class=\"post-images pure-g-r\">\n														<div class=\"pure-u-1-2\">\n																<a href=\"http://www.flickr.com/photos/uberlife/8915936174/\">\n																		<img alt=\"Photo of someone working poolside at a resort\"\n																				 src=\"http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg\">\n																</a>\n\n																<div class=\"post-image-meta\">\n																		<h3>CSSConf Photos</h3>\n																</div>\n														</div>\n\n														<div class=\"pure-u-1-2\">\n																<a href=\"http://www.flickr.com/photos/uberlife/8907351301/\">\n																		<img alt=\"Photo of the sunset on the beach\"\n																				 src=\"http://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg\">\n																</a>\n\n																<div class=\"post-image-meta\">\n																		<h3>JSConf Photos</h3>\n																</div>\n														</div>\n												</div>\n										</div>\n								</section>\n\n								<section class=\"post\">\n										<header class=\"post-header\">\n												<img class=\"post-avatar\" alt=\"Andrew Wooldridge&#x27;s avatar\" height=\"48\" width=\"48\" src=\"img/common/andrew-avatar.png\">\n\n												<h2 class=\"post-title\">YUI 3.10.2 Released</h2>\n\n												<p class=\"post-meta\">\n														By <a class=\"post-author\" href=\"#\">Andrew Wooldridge</a> under <a class=\"post-category post-category-yui\" href=\"#\">YUI</a>\n												</p>\n										</header>\n\n										<div class=\"post-description\">\n												<p>\n														We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.\n												</p>\n										</div>\n								</section>\n						</div>-->\n\n						<footer class=\"footer\">\n								<div class=\"pure-menu pure-menu-horizontal pure-menu-open\">\n										<ul>\n												<li><a href=\"http://purecss.io/\">About</a></li>\n												<li><a href=\"http://twitter.com/yuilibrary/\">Twitter</a></li>\n												<li><a href=\"http://github.com/yui/pure/\">Github</a></li>\n										</ul>\n								</div>\n						</footer>\n				</div>\n		</div>\n</div>\n\n<script src=\"http://yui.yahooapis.com/3.12.0/build/yui/yui.js\"></script>\n<script>\nYUI().use('node-base', 'node-event-delegate', function (Y) {\n		// This just makes sure that the href=\"#\" attached to the <a> elements\n		// don't scroll you back up the page.\n		Y.one('body').delegate('click', function (e) {\n				e.preventDefault();\n		}, 'a[href=\"#\"]');\n});\n</script>\n<script src=\"/combo/1.8.2?/js/ui.js&amp;/vendor/rainbow/rainbow-min.js\"></script>\n\n\n\n\n</body>\n</html>\n",
-			"file": "dittotrade.html",
-			"file_size": 13134,
-			"file_write_time": 130329157970000000,
+			"file": "home.html",
 			"settings":
 			{
-				"buffer_size": 10975,
-				"line_ending": "Windows"
+				"buffer_size": 6692,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "body {\n    color: #444;\n}\n\n/*\nAdd transition to containers so they can push in and out.\n*/\n#layout,\n#menu,\n.menu-link {\n    -webkit-transition: all 0.2s ease-out;\n    -moz-transition: all 0.2s ease-out;\n    -ms-transition: all 0.2s ease-out;\n    -o-transition: all 0.2s ease-out;\n    transition: all 0.2s ease-out;\n}\n\n/*\nThis is the parent `<div>` that contains the menu and the content area.\n*/\n#layout {\n    padding-left: 180px; /* left col width \"#menu\" */\n    left: 0;\n}\n\n/*\nThe content `<div>` is where all your content goes.\n*/\n\na {\n    text-decoration: none;\n    color: rgb(142, 142, 214);\n}\n\n.content {\n    margin: 0 auto;\n    padding: 2em 3em 0;\n    max-width: 75%;\n    margin-bottom: 50px;\n    line-height: 1.8em;\n}\n\n.header {\n     margin: 0;\n     color: #333;\n     text-align: center;\n     padding: 1.2em 0em 0;\n     border-bottom: 1px solid #ddd;\n }\n    .header h1 {\n        margin: 0.2em 0;\n        font-size: 3em;\n        font-weight: 300;\n    }\n     .header h2 {\n        font-weight: 300;\n        color: #B4B4B4;\n        padding: 0;\n        margin-top: 0;\n    }\n\n.content-subhead {\n    margin: 50px 0 20px 0;\n    font-weight: 300;\n    color: #888;\n}\n\n/** ----- Disclaimer CSS Transfer ---- **/\n\n.content-subhead-disclaimer {\n    text-transform: uppercase;\n    color: #aaa;\n    border-bottom: 1px solid #eee;\n    padding: 0.4em 0;\n    font-size: 90%;\n    font-weight: 300;\n    letter-spacing: 0.1em;\n}\n\n.post {\n    padding-bottom: 2em;\n}\n\n.post-title {\n    font-size: 1.5em;\n    color: #222;\n    margin-bottom: 0.4em;\n}\n\n.post-meta {\n    color: #999;\n    font-size: 80%;\n    margin: 0;\n}\n\n.post-category {\n    margin: 0 0.1em;\n    padding: 0.3em 1em;\n    color: #fff;\n    background: #999;\n    font-size: 80%;\n}\n    .post-category-design {\n        background: #5aba59;\n    }\n    .post-category-pure {\n        background: #4d85d1;\n    }\n    .post-category-yui {\n        background: #8156a7;\n    }\n    .post-category-js {\n        background: #df2d4f;\n    }\n\n    .footer {\n    text-align: center;\n    padding: 1em 0;\n}\n.footer a {\n    color: #ccc;\n    font-size: 80%;\n}\n.footer .pure-menu a:hover,\n.footer .pure-menu a:focus {\n    background: none;\n}\n\n/****************** Pricing Migration ******************/\n/*\n * -- BANNER --\n * The top banner with the headings. By using a combination\n * of `display: table;` and `display: table-cell;`, we can\n * vertically center the text.\n */\n\n .l-content {\n    margin: 0;\n}\n\n.l-box {\n    padding: 0.5em 2em;\n}\n\n.l-box p{\n    line-height: 1.8em;\n}\n.banner {\n    background: transparent url('http://farm3.staticflickr.com/2868/11423254635_fea3c0839f_c.jpg') 0 0 no-repeat fixed;\n    text-align: center;\n    padding-bottom: 0em;\n    background-size: cover;\n    height: 400px;\n    width: 100%;\n    margin-bottom: 3em;\n    display: table;\n}\n\n    .banner-head {\n        display: table-cell;\n        vertical-align: middle;\n        margin-bottom: 0;\n        padding-top: .65em;\n        font-size: 3.8em;\n        color: #FFB700;\n        font-weight: 900;\n        text-shadow: 0 1px 1px #000;\n    }\n\n/*\n * -- PRICING TABLE WRAPPER --\n * This element wraps up all the pricing table elements\n */\n .pricing-tables,\n .information {\n    max-width: 980px;\n    margin: 0 auto;\n }\n.pricing-tables {\n    margin-bottom: 3.125em;\n    text-align: center;\n}\n\n/*.pricing-tables-price {letter-spacing: 20px;}*/\n\n/*\n * -- PRICING TABLE  --\n * Every pricing table has the .pricing-table class\n */\n.pricing-table {\n    border: 1px solid #ddd;\n    margin: 0 0.5em;\n    padding: 0 0 3em;\n}\n\n/*\n * -- PRICING TABLE HEADER COLORS --\n * Choose a different color based on the type of pricing table.\n */\n.pricing-table-free .pricing-table-header {\n    background: #6C8A87;\n}\n\n.pricing-table-biz .pricing-table-header {\n    background: #527492;\n}\n\n/*\n * -- PRICING TABLE HEADER --\n * By default, a header is black/white, and has some styles for its <h2> name.\n */\n.pricing-table-header {\n    background: #CFA854;\n    color: #fff;\n}\n    .pricing-table-header h2 {\n        margin: 0;\n        padding-top: 2em;\n        font-size: 1em;\n        font-weight: normal;\n    }\n\n\n/*\n * -- PRICING TABLE PRICE --\n * Styles for the price and the corresponding <span>per month</span>\n */\n.pricing-table-price {\n    font-size: 4.4em;\n    margin: 0.2em 0 0;\n    font-weight: 100;\n}\n    .pricing-table-price span {\n        display: block;\n        text-transform: uppercase;\n        font-size: 0.2em;\n        padding-bottom: 2em;\n        font-weight: 400;\n        color: rgba(255, 255, 255, 0.5);\n        *color: #fff;\n    }\n\n\n\n/*\n * -- PRICING TABLE LIST --\n * Each pricing table has a <ul> which is denoted by the .pricing-table-list class\n */\n.pricing-table-list {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n    text-align: center;\n}\n\n\n/*\n * -- PRICING TABLE LIST ELEMENTS --\n * Styles for the individual list elements within each pricing table\n */\n.pricing-table-list li {\n    padding: 0.8em 0;\n    background: #f7f7f7;\n    border-bottom: 1px solid #e7e7e7;\n}\n\n\n/*\n * -- PRICING TABLE BUTTON --\n * Styles for the \"Choose\" button at the bottom of a pricing table.\n * This inherits from Pure Button.\n */\n.button-choose {\n    border: 1px solid #ccc;\n    background: #fff;\n    color: #333;\n    border-radius: 2em;\n    font-weight: bold;\n    position: relative;\n    bottom: -1.5em;\n}\n\n.information-head {\n    font-weight: 500;\n    line-height: 1.6em;\n}\n\n/** ----- Disclaimer CSS Transfer ---- **/\n\n\n\n\n\n/*\nThe `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that\nappears on the left side of the page.\n\nBy using the combination of `position: fixed; top: 0; bottom:0;`, we can make\nthe menu have 100% height and be fixed on the page as the rest of it scrolls.\n*/\n#menu {\n    margin-left: -180px; /* this should be \"#menu\" width */\n    width: 180px;\n    position: fixed;\n    top: 0;\n    left: 180px; /* this should be \"#menu\" width */\n    bottom: 0;\n    z-index: 1; /* so the menu or its navicon stays above all content */\n    background: #05060a;\n    overflow-y: auto;\n    -webkit-overflow-scroll: touch; /* for smooth scrolling on mobile */\n}\n    /*\n    All anchors inside the menu should be styled like this.\n    */\n    #menu a {\n        color: #21408;\n        border: none;\n        padding: 0.6em 0 0.6em 0.6em;\n    }\n\n    /*\n    Remove all background/borders, since we are applying them to #menu.\n    */\n     #menu .pure-menu,\n     #menu .pure-menu ul {\n        border: none;\n        background: transparent;\n    }\n\n    /*\n    Add that light border to separate items into groups.\n    */\n    #menu .pure-menu ul,\n    #menu .pure-menu .menu-item-divided {\n        border-top: 2px solid #28213D;\n    }\n\n    #menu .pure-menu li {\n        padding-left: 1.8em;\n    }\n        /*\n        Change color of the anchor links on hover/focus.\n        */\n        #menu .pure-menu li a:hover,\n        #menu .pure-menu li a:focus {\n            border: 2px solid #28213D;\n            color: #18213d;\n            text-decoration: none;\n        }\n\n    /*\n    This styles the selected menu item `<li>`.\n    */\n    #menu .pure-menu-selected,\n    #menu .pure-menu-heading {\n        background: #30425C;\n        color: #c4cde8;\n    }\n        /*\n        This styles a link within a selected menu item `<li>`.\n        */\n        #menu .pure-menu-selected a {\n            color: #ccc;\n            font-size: 105%;\n        }\n\n    /*\n    This styles the menu heading.\n    */\n\n    #menu .pure-menu-heading {\n        font-size: 130%;\n        color: #fff;\n        margin: 0;\n        text-transform: none;\n    }\n\n/* -- Dynamic Button For Responsive Menu -------------------------------------*/\n\n/*\nThe button to open/close the Menu is custom-made and not part of Pure. Here's\nhow it works:\n*/\n\n/*\n`.menu-link` represents the responsive menu toggle that shows/hides on\nsmall screens.\n*/\n.menu-link {\n    display: none; /* show this only on small screens */\n    top: 0;\n    left: 150px; /* `#menu`'s width */\n    background: #000;\n    font-size: 10px; /* change this value to increase/decrease button size */\n    z-index: 10;\n    width: 2em;\n    height: auto;\n    padding: 2.2em 1.6em;\n}\n\n    .menu-link:hover,\n    .menu-link:focus {\n        background: #000;\n    }\n\n    .menu-link span {\n        position: relative;\n        display: block;\n    }\n\n    .menu-link span,\n    .menu-link span:before,\n    .menu-link span:after {\n        background-color: #fff;\n        width: 100%;\n        height: 0.2em;\n    }\n\n        .menu-link span:before,\n        .menu-link span:after {\n            position: absolute;\n            margin-top: -0.6em;\n            content: \" \";\n        }\n\n        .menu-link span:after {\n            margin-top: 0.6em;\n        }\n\n\n/* -- Responsive Styles (Media Queries) ------------------------------------- */\n\n/*\nHides the menu at `767px`, but modify this based on your app's needs.\n*/\n@media (max-width: 767px) {\n\n    .header {\n        text-align: left;\n    }\n\n    /*\n    Navigation Push styles.\n    */\n    #layout {\n        position: relative;\n        padding-left: 0;\n    }\n        #layout.active {\n            position: relative;\n            left: 150px;\n        }\n            #layout.active #menu {\n                left: 150px;\n                width: 150px;\n            }\n\n    #menu {\n        left: 0;\n    }\n\n    .menu-link {\n        position: fixed;\n        left: 0;\n        display: block; /* show the button on small screens */\n    }\n\n    #layout.active .menu-link {\n        left: 150px;\n    }\n/* from pricing.css */\n    .banner-head {\n        font-size: 3em;\n    }\n    .pricing-table {\n        margin-bottom: 2em;\n    }\n\n}\n    ",
 			"file": "css/layouts/index.css",
-			"file_size": -1,
-			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 9556,
+				"buffer_size": 14246,
 				"line_ending": "Unix"
 			}
 		}
@@ -41,9 +43,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 228.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
 			[
 				"package",
 				"Package Control: Discover Packages"
@@ -73,13 +79,14 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 338.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 284.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -93,8 +100,17 @@
 	},
 	"file_history":
 	[
-		"/Users/Home/Box Sync/Documents/BD2/pure-master/pricing.html",
+		"/C/Users/XPS/Box Sync/Documents/BD2/pure-master/performance (aesim2@gmail.com).html",
+		"/C/Users/XPS/Box Sync/Documents/BD2/pure-master/package.json",
+		"/C/Users/XPS/Box Sync/Documents/BD2/pure-master/CONTRIBUTING.md",
+		"/C/Users/XPS/Box Sync/Documents/BD2/pure-master/performance.html",
+		"/Users/Home/Box Sync/Documents/BD2/pure-master/performance.html",
+		"/Users/Home/Box Sync/Documents/BD2/pure-master/blog.html",
+		"/Users/Home/Box Sync/Documents/BD2/pure-master/disclaimer.html",
 		"/Users/Home/Box Sync/Documents/BD2/pure-master/aboutus.html",
+		"/Users/Home/Box Sync/Documents/BD2/pure-master/dittotrade.html",
+		"/Users/Home/Box Sync/Documents/BD2/pure-master/pricing.html",
+		"/Users/Home/Box Sync/Documents/BD2/pure-master/css/blog.css",
 		"/Users/Home/Box Sync/Documents/BD2/pure-master/css/pricing.css",
 		"/Users/Home/Box Sync/Documents/BD2/pure-master/css/layouts/side-menu.css",
 		"/Users/Home/Box Sync/Documents/BD2/pure-master/css/aboutus.css",
@@ -110,7 +126,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -125,6 +141,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"posts",
+			"div id",
+			"disclaimer",
+			"body",
+			"posts",
 			"h3",
 			"display: block",
 			"pure-u-1",
@@ -148,24 +169,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "home.html",
+					"file": "performance.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6670,
+						"buffer_size": 8356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1782,
-								0
+								7279,
+								7279
 							]
 						],
 						"settings":
@@ -175,84 +196,85 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2755.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2641,
+								2641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true,
+							"wrap_width": 120
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "dittotrade.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10975,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2683,
-								2683
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 780.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
 					"buffer": 2,
 					"file": "css/layouts/index.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9556,
+						"buffer_size": 14246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4437,
-								4437
+								12091,
+								12091
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 10659.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				}
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -278,7 +300,7 @@
 		"cols":
 		[
 			0.0,
-			0.787290018405,
+			0.945235487404,
 			1.0
 		],
 		"rows":
@@ -299,7 +321,7 @@
 	"project": "MasterMove.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
