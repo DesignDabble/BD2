@@ -26,10 +26,70 @@ This is the parent `<div>` that contains the menu and the content area.
     padding-left: 150px; /* left col width "#menu" */
     left: 0;
 }
+/*
+    All anchors inside the menu should be styled like this.
+    */
+    #menu a {
+        color: #21408;
+        border: none;
+        padding: 0.6em 0 0.6em 0.6em;
+    }
 
-#menu {
-  font-size: 100%;
-}
+    /*
+    Remove all background/borders, since we are applying them to #menu.
+    */
+     #menu .pure-menu,
+     #menu .pure-menu ul {
+        border: none;
+        background: transparent;
+    }
+
+    /*
+    Add that light border to separate items into groups.
+    */
+    #menu .pure-menu ul,
+    #menu .pure-menu .menu-item-divided {
+        border-top: 2px solid #28213D;
+    }
+
+    #menu .pure-menu li {
+        padding-left: 0.5em;
+    }
+        /*
+        Change color of the anchor links on hover/focus.
+        */
+        #menu .pure-menu li a:hover,
+        #menu .pure-menu li a:focus {
+            border: 2px solid #28213D;
+            color: #18213d;
+            text-decoration: none;
+        }
+
+    /*
+    This styles the selected menu item `<li>`.
+    */
+    #menu .pure-menu-selected,
+    #menu .pure-menu-heading {
+        background: #30425C;
+        color: #c4cde8;
+    }
+        /*
+        This styles a link within a selected menu item `<li>`.
+        */
+        #menu .pure-menu-selected a {
+            color: #ccc;
+        }
+
+    /*
+    This styles the menu heading.
+    */
+
+    #menu .pure-menu-heading {
+        font-weight: 300;
+        color: #fff;
+        margin: 0;
+        text-transform: none;
+    }
 /*
 The content `<div>` is where all your content goes.
 */
@@ -37,6 +97,7 @@ The content `<div>` is where all your content goes.
 a {
     text-decoration: none;
     color: rgb(142, 142, 214);
+    font-size: 100%;
 }
 
 .content {
@@ -50,9 +111,9 @@ a {
 
 .header {
      margin: 0;
-     color: #333;
+     color: #18213d;
      text-align: center;
-     padding: 2.5em 2em 0;
+     padding: 2em 2em 0;
      border-bottom: 1px solid #ddd;
  }
     .header h1 {
@@ -62,7 +123,7 @@ a {
     }
      .header h2 {
         font-weight: 300;
-        color: #B4B4B4;
+        color: rgb(142, 142,214);
         padding: 0;
         margin-top: 0;
     }
@@ -70,7 +131,7 @@ a {
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: #888;
+    color: rgb(142, 142, 214);
 }
 
 /** ----- POST  ---- **/
@@ -81,10 +142,11 @@ a {
     border-bottom: 1px solid #eee;
     margin: 50px 0 25px 0;
     padding-bottom: 5px;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 300;
     letter-spacing: 0.1em;
 }
+
 
 .post {
     padding-bottom: 1em;
@@ -93,7 +155,7 @@ a {
 .post-title {
     font-size: 150%;
     font-weight: 300;
-    color: #666;
+    color: #8e8ed6;
     margin-bottom: 0.5em;
 }
 
@@ -101,6 +163,8 @@ a {
     color: #999;
     font-size: 80%;
     margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .post-header {
@@ -146,10 +210,10 @@ a {
 
 .footer {
     text-align: center;
-    padding: 1em 0;
+    padding: 3em 0;
 }
     .footer a {
-        color: #ccc;
+        color: rgb(142, 142, 214);
         font-size: 80%;
 }
 .footer .pure-menu a:hover,
@@ -166,7 +230,7 @@ a {
 }
 
 .l-box {
-    padding: 1em 1.2em;
+    padding: 1em;
 }
 
 .l-box p{
@@ -188,10 +252,11 @@ a {
         vertical-align: middle;
         margin-bottom: 0;
         padding-top: .65em;
-        font-size: 3.8em;
-        color: #FFB700;
+        font-size: 4em;
+        color: #F7C457;
         font-weight: 500;
         text-shadow: 0 1px 1px #000;
+        text-transform: uppercase;
     }
 
 /** -- PRICING TABLE WRAPPER --* This element wraps up all the pricing table elements*/
@@ -276,8 +341,12 @@ a {
 .information-head {
     font-weight: 500;
     line-height: 1.6em;
+    color:#8E8ED6;
 }
 
+.information.pure-g-r {
+  max-width: 80%;
+}
 /** ----- End Pricing -------------------------------------------------------- **/
 
 
@@ -298,71 +367,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.*/
     overflow-y: auto;
     -webkit-overflow-scroll: touch; /* for smooth scrolling on mobile */
 }
-    /*
-    All anchors inside the menu should be styled like this.
-    */
-    #menu a {
-        color: #21408;
-        border: none;
-        padding: 0.6em 0 0.6em 0.6em;
-        font-size: 90%;
-    }
-
-    /*
-    Remove all background/borders, since we are applying them to #menu.
-    */
-     #menu .pure-menu,
-     #menu .pure-menu ul {
-        border: none;
-        background: transparent;
-    }
-
-    /*
-    Add that light border to separate items into groups.
-    */
-    #menu .pure-menu ul,
-    #menu .pure-menu .menu-item-divided {
-        border-top: 2px solid #28213D;
-    }
-
-    #menu .pure-menu li {
-        padding-left: 0.5em;
-    }
-        /*
-        Change color of the anchor links on hover/focus.
-        */
-        #menu .pure-menu li a:hover,
-        #menu .pure-menu li a:focus {
-            border: 2px solid #28213D;
-            color: #18213d;
-            text-decoration: none;
-        }
-
-    /*
-    This styles the selected menu item `<li>`.
-    */
-    #menu .pure-menu-selected,
-    #menu .pure-menu-heading {
-        background: #30425C;
-        color: #c4cde8;
-    }
-        /*
-        This styles a link within a selected menu item `<li>`.
-        */
-        #menu .pure-menu-selected a {
-            color: #ccc;
-        }
-
-    /*
-    This styles the menu heading.
-    */
-
-    #menu .pure-menu-heading {
-        font-weight: 300;
-        color: #fff;
-        margin: 0;
-        text-transform: none;
-    }
+    
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
 
@@ -584,6 +589,8 @@ small screens.
     border-width: 0 0 0 1px;
     font-size: 90%;
     margin: 2em 0;
+    text-align: center;
+    line-height: 1.4em;
     overflow: visible; /*to make ths where the title is really long work*/
     padding: 0.3em 2em; /* cell padding */
 }
@@ -594,7 +601,7 @@ small screens.
 }
 
 .pure-skin-mine .pure-table thead {
-    background-color: #ADC0CC;
+    background-color: #C0BFC2;
     color: #05060a;
     text-align: center;
     vertical-align: middle;
@@ -602,7 +609,7 @@ small screens.
 
 /*striping: even - #fff (white) odd  - #f2f2f2 (light gray)*/
 .pure-skin-mine .pure-table td {
-    background-color: #EBECEC;
+    background-color: #FCFFFF;
     color: #323c4e;
 }
 .pure-skin-mine .pure-table-odd td {
@@ -610,9 +617,16 @@ small screens.
     color: #1e242f;
 }
 
+#red {
+  background: #DBC0CD;
+}
+
+#green {
+  background: #92d3b4;
+}
 /* nth-child selector for modern browsers */
 .pure-skin-mine .pure-table-striped tr:nth-child(2n-1) td {
-    background-color: #D4D9DB;
+    background-color: #E3E5E6;
     color: #1e242f;
 }
 
@@ -644,6 +658,7 @@ small screens.
 
     #menu {
         left: 0;
+        font-size:100%;
     }
 
     .menu-link {
