@@ -39,7 +39,7 @@ a {
 .content {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 800px;
+    max-width: 787px;
     margin-bottom: 50px;
     line-height: 1.6em;
     font-size: 100%;
@@ -163,11 +163,11 @@ a {
 }
 
 .l-box {
-    padding: 0.5em 2em;
+    padding: 1em 1.2em;
 }
 
 .l-box p{
-    line-height: 1.6em;
+    line-height: 1.8em;
 }
 .banner {
     background: transparent url('http://farm3.staticflickr.com/2868/11423254635_fea3c0839f_c.jpg') 0 0 no-repeat fixed;
@@ -601,7 +601,7 @@ small screens.
 
 /*striping: even - #fff (white) odd  - #f2f2f2 (light gray)*/
 .pure-skin-mine .pure-table td {
-    background-color: #EBEEF0;
+    background-color: #EBECEC;
     color: #323c4e;
 }
 .pure-skin-mine .pure-table-odd td {
@@ -611,7 +611,7 @@ small screens.
 
 /* nth-child selector for modern browsers */
 .pure-skin-mine .pure-table-striped tr:nth-child(2n-1) td {
-    background-color: #d7dce5;
+    background-color: #D4D9DB;
     color: #1e242f;
 }
 
