@@ -4,6 +4,7 @@
 
 body {
     color: #777;
+    font-size:100%;
 }
 
 /*
@@ -50,6 +51,7 @@ This is the parent `<div>` that contains the menu and the content area.
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
         border-top: 2px solid #28213D;
+        font-size: 100%;
     }
 
     #menu .pure-menu li {
@@ -87,16 +89,15 @@ This is the parent `<div>` that contains the menu and the content area.
     #menu .pure-menu-heading {
         font-weight: 300;
         color: #fff;
-        margin: 0;
-        text-transform: none;
-    }
+        margin: 0;    
+      }
 /*
 The content `<div>` is where all your content goes.
 */
 
 a {
     text-decoration: none;
-    color: rgb(142, 142, 214);
+    color: #8e8ed6;
     font-size: 100%;
 }
 
@@ -123,15 +124,20 @@ a {
     }
      .header h2 {
         font-weight: 300;
-        color: rgb(142, 142,214);
+        color: #8e8ed6;
         padding: 0;
         margin-top: 0;
+    }
+
+    .header h3 {
+      font-weight: 300;
+      color: #8e8ed6;
     }
 
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: rgb(142, 142, 214);
+    color: #8e8ed6;
 }
 
 /** ----- POST  ---- **/
@@ -142,14 +148,14 @@ a {
     border-bottom: 1px solid #eee;
     margin: 50px 0 25px 0;
     padding-bottom: 5px;
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 300;
     letter-spacing: 0.1em;
 }
 
 
 .post {
-    padding-bottom: 1em;
+    padding-bottom: 1.2em;
 }
 
 .post-title {
@@ -252,7 +258,7 @@ a {
         vertical-align: middle;
         margin-bottom: 0;
         padding-top: .65em;
-        font-size: 4em;
+        font-size: 2.8em;
         color: #F7C457;
         font-weight: 500;
         text-shadow: 0 1px 1px #000;
