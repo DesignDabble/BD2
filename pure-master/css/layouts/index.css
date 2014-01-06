@@ -27,6 +27,9 @@ This is the parent `<div>` that contains the menu and the content area.
     left: 0;
 }
 
+#menu {
+  font-size: 100%;
+}
 /*
 The content `<div>` is where all your content goes.
 */
@@ -348,7 +351,6 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.*/
         */
         #menu .pure-menu-selected a {
             color: #ccc;
-            font-size: 100%;
         }
 
     /*
@@ -356,7 +358,6 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.*/
     */
 
     #menu .pure-menu-heading {
-        font-size: 100%;
         font-weight: 300;
         color: #fff;
         margin: 0;
